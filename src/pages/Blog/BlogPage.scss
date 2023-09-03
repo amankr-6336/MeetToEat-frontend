@@ -1,0 +1,38 @@
+.blog{
+    width: 100vw;
+    background-color: #f9f6ee;
+    
+    .navbarblog{
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+
+
+    }
+
+    .blogpageblog{
+        margin: 50px 0px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+
+    }
+
+    .numberfooterblog{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: greenyellow;
+
+    }
+
+
+}

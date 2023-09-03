@@ -1,0 +1,188 @@
+.mains{
+    width: 80%;
+    height: 800px;
+    margin: 50px 0px;
+    
+    border-radius: 60px;
+    overflow: hidden;
+   position: relative;
+    img{
+        // position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+       
+       
+      
+    }
+    .innermains{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+        .leftmains{
+            
+        
+            width: 45%;
+            height: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .offerparts{
+               
+                background-color: #9CFF2E;
+                width: 230px;
+                height: 230px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+        
+                #percents{
+                 
+                    font-size: 4rem;
+                    font-weight: 900;
+                    text-align: center;
+                    font-family: 'Staatliches', cursive;
+                    font-family: 'Varela Round', sans-serif;
+                }
+                #offs{
+                 
+                  text-align: center;
+                  font-size: 1.2rem;
+
+                }
+            }
+            
+            .names{
+                h2{
+                    color: white;
+                   
+                }
+            }
+
+            .headlines{
+               h1{
+                  font-size: 4rem;
+                  color: white;
+               }
+            }
+
+            .mainbuttons{
+               .buttons{
+                padding: 10px 20px;
+                border-radius: 20px;
+                background-color: #F99417;
+                border: none;
+                color: oldlace;
+                font-weight: bold;
+               }
+               .buttons:hover{
+                cursor: pointer;
+                 background-color: #adff2f;
+                 color:  rgb(36, 35, 35);
+               }
+            }
+
+           
+        }
+
+        .rightmains{
+            width: 50%;
+            height: 90%;
+          
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+     .mains{
+         width: 90%;
+
+        img{
+          object-fit:cover;
+          
+        }
+        .innermains{
+            
+
+            .leftmains{
+                 width: 90%;
+                //  border: 2px solid red;
+                .offerparts{
+
+                }
+            }
+
+            .rightmains{
+                  display: none;
+            }
+        }
+     }
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .mains{
+        width: 90%;
+
+       img{
+         object-fit:cover;
+         
+       }
+       .innermains{
+           
+
+           .leftmains{
+                width: 90%;
+               //  border: 2px solid red;
+               .offerparts{
+
+               }
+           }
+
+           .rightmains{
+                 display: none;
+           }
+       }
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .mains{
+        width: 80%;
+
+       img{
+         object-fit:cover;
+         
+       }
+       .innermains{
+           
+
+           .leftmains{
+                width: 90%;
+               //  border: 2px solid red;
+               .offerparts{
+
+               }
+           }
+
+           .rightmains{
+                 display: none;
+           }
+       }
+    }
+}

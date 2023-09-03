@@ -1,0 +1,308 @@
+.orderconfirmed {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9f6ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .innerorderconfirmed {
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .ordertop {
+      height: 20%;
+      width: 95%;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+
+      .orderstatus {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+
+        h1 {
+          font-family: "Times New Roman", Times, serif;
+          color: rgb(41, 41, 41);
+        }
+
+        .ordericon {
+          font-size: 2rem;
+          color: orange;
+          // background-color: orange;
+          // border-radius: 50%;
+        }
+      }
+
+      .orderandtable{
+       
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+           .infoo{
+            width: 100%;
+            font-family: Georgia, "Times New Roman", Times, serif;
+           
+           }
+           .infoos{
+            width: 100%;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            
+            text-align: end;
+           }
+      }
+
+     
+    }
+    .orderbottom {
+      height: 70%;
+      width: 95%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .leftorder {
+        width: 50%;
+        height: 100%;
+        border-right: 1px solid black;
+
+        .leftordertop {
+          width: 90%;
+          height: 80%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: column;
+          border-bottom: 2px solid black;
+          gap: 20px;
+
+          .orderdetails {
+            width: 100%;
+            h2{
+                font-size: 1.1rem;
+            font-weight: 300;
+            }
+          }
+
+          .orderlist {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 2px solid red;
+
+            ol {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+              li {
+                width: 90%;
+               
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 10px;
+
+                .cross{
+                    color: orange;
+                }
+              }
+            }
+          }
+        }
+
+        .leftorderbottom{
+            width: 90%;
+            height: 20%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            h4{
+                font-family:'Times New Roman', Times, serif;
+                font-size: 1.3rem;
+                
+            }
+        }
+      }
+
+      .rightorder {
+        width: 50%;
+        height: 100%;
+      
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+       
+
+        .orderanimation{
+            width: 100%;
+            height: 80%;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            
+
+            .animate{
+                width: 100%;
+                height: 70%;
+                overflow: hidden;
+                
+            }
+            h2{
+                width: 90%;
+                height: 10%;
+                font-size: 1rem;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            h1{
+                font-size: 1.3rem;
+                height: 10%;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+        .backtomenubutton{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            button{
+                width: 40%;
+                padding: 7px 12px;
+                font-size: 1rem;
+                border-radius: 15px;
+                border: none;
+                background-color: orange;
+                color: white;
+            }
+
+
+            
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width:600px) {
+  
+  .orderconfirmed{
+    .innerorderconfirmed{
+          width: 90%;
+          height: 85%;
+      .ordertop{
+
+          .orderandtable{
+            flex-direction: column;
+             gap: 10px;
+            .infoos{
+              text-align:start;
+            }
+          }
+      }
+
+      .orderbottom{
+          
+        .rightorder{
+            
+          .orderanimation{
+            height: 85%;
+
+
+
+            h2{
+              height: 15%;
+            }
+          }
+
+          .backtomenubutton{
+            height: 15%;
+
+            button{
+              width: 70%;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+  
+  .orderconfirmed{
+    .innerorderconfirmed{
+          width: 90%;
+          height: 85%;
+      .ordertop{
+
+          .orderandtable{
+            flex-direction: column;
+             gap: 10px;
+            .infoos{
+              text-align:start;
+            }
+          }
+      }
+
+      .orderbottom{
+          
+        .rightorder{
+            
+          .orderanimation{
+            height: 85%;
+
+
+
+            h2{
+              height: 15%;
+            }
+          }
+
+          .backtomenubutton{
+            height: 15%;
+
+            button{
+              width: 70%;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}

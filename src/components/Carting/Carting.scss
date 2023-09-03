@@ -1,0 +1,52 @@
+.cartitem{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color:  #FFFFFF;
+    
+    .innercartitem{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        // border: 2px solid black;
+
+
+        .imagecartitem{
+           width: 50%;
+           height: 100%;
+        //    border: 2px solid red;
+           border-radius: 30px;
+           overflow: hidden;
+
+           img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+           }
+
+        }
+        .rightdetails{
+           width: 50%;
+           height: 100%;
+           
+        //    border: 2px solid red;
+       
+           display: flex;
+           justify-content: flex-start;
+           align-items: flex-start;
+           flex-direction: column;
+           gap: 10px;
+
+        }
+    }
+}
+
+
+

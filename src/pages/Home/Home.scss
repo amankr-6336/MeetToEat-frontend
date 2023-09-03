@@ -1,0 +1,85 @@
+.Home{
+    width: 100vw;
+    background-color: #f9f6ee;
+    
+
+    .navbarhome{
+
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F4EB;
+    }
+
+    .mainhome{
+        width: 100%;
+        height: fit-content;
+      
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mainbooking{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .numberfooterhome{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: greenyellow;
+    }
+    .aboutonehome{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mailfooterhome{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffa500;
+    }
+
+    .abouttwohome{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lastfooterhome{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blackborder{
+        width: 100vw;
+        background-color: rgb(50, 50, 50);
+        height: 200px;
+    }
+  
+
+
+   
+   
+
+}

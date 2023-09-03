@@ -1,0 +1,106 @@
+.mailfooter{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 50px 0px;
+    .innermailfooter{
+
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        .mailfootertop{
+            width: 100%;
+          
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+
+            h1{
+               width: 100%;
+               text-align: center;
+               font-size: 3rem;
+            }
+
+            h3{
+               width: 100%;
+               text-align: center;
+               font-size: 2rem;
+               font-weight: 400;
+            }
+
+
+        }
+
+        .bottommailfooter{
+             width: 100%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             gap: 20px;
+             
+             .call{
+                font-size: 3rem;
+                color: orange;
+             }
+             h1{
+                font-size: 3rem;
+             }
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+   
+   .mailfooter{
+        width: 90%;
+      .innermailfooter{
+
+         .mailfootertop{
+               width: 90%;
+            h1{
+               font-size: 2.5rem;
+            }
+
+         }
+         .bottommailfooter{
+             .call{
+               font-size: 2rem;
+             }
+         }
+      }
+   }
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+   
+   .mailfooter{
+        width: 90%;
+      .innermailfooter{
+
+         .mailfootertop{
+               width: 90%;
+            h1{
+               font-size: 2.5rem;
+            }
+
+         }
+         .bottommailfooter{
+             .call{
+               font-size: 2.5rem;
+             }
+         }
+      }
+   }
+}

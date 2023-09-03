@@ -1,0 +1,121 @@
+.table{
+    width: 340px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+     border-radius: 25px;
+     background-color: #ffffff;
+    
+    
+    .innertable{
+        width: 87%;
+        height: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        .tableimg{
+            width: 100%;
+            height: 60%;
+            overflow-y: hidden;
+            border-radius: 20px;
+            #tablename{
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+
+            };
+        }
+
+        .tableinfo{
+             width: 100%;
+             height: 20%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+             .innertableinfo{
+                 width: 70%;
+                 height: 100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                //  border: 2px solid red;
+                .tablenumber{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 50%;
+                    width: 100%;
+                    overflow-y: hidden;
+                    color: rgb(206, 60, 60);
+                 
+                    text-align: center;
+                    font-size: 1.3rem;
+                    
+                   
+                    }
+                .capacity
+                {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                  text-align: center;
+                  height: 50%;
+                  width: 100%;
+                //   border: 2px solid red;
+                
+                 
+                }
+
+             }
+             .icondining{
+                height: 100%;
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             
+                // border: 2px solid red;
+                 .din{
+                    font-size: 3rem;
+                    color: orange;
+                  
+                 }
+
+             }
+             
+          
+        }
+
+       
+
+        .select{
+            height:10%;
+            width: 100px;
+            overflow-y: hidden;   
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: none;
+            background-color: #9CFF2E;
+             font-size: 1rem;
+            font-weight: 700;
+            color: black;
+        }
+        .select:hover{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+        }
+    }
+}
+
+.table:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

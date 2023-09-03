@@ -1,0 +1,156 @@
+.booking{
+    padding: 50px 0px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .innerbooking{
+
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+
+        .bookingtable{
+           width: 100%;
+           height: 70px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           gap: 5px;
+            
+            h1{
+               font-size: 3rem;
+               text-align: center;
+            }
+
+            .line{
+                width: 50%;
+                height: 7px;
+                background-color: orange;
+                overflow: hidden;
+                border-radius: 50px;
+            }
+        }
+      
+
+        .listoftables{
+            width: 100%;
+            height: fit-content;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            flex-wrap: wrap;
+            gap: 50px 40px ;
+
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .booking{
+        width: 90%;
+        .innerbooking{
+            .bookingtable{
+                height: 80px;
+                h1{
+                    width: 100%;
+                    font-size: 1.8rem;
+                }
+
+                .line{
+                    width: 100%;
+                }
+
+            }
+            .listoftables{
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    
+    .booking{
+        width: 90%;
+        .innerbooking{
+            .bookingtable{
+                height: 80px;
+                h1{
+                    width: 100%;
+                    font-size: 2rem;
+                }
+
+                .line{
+                    width: 80%;
+                }
+
+            }
+            .listoftables{
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+    
+    .booking{
+        width: 90%;
+        .innerbooking{
+            .bookingtable{
+                height: 80px;
+                h1{
+                    width: 100%;
+                    font-size: 2.5rem;
+                }
+
+                .line{
+                    width: 60%;
+                }
+
+            }
+            .listoftables{
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+    
+    .booking{
+        width: 90%;
+        .innerbooking{
+            .bookingtable{
+                height: 80px;
+                h1{
+                    width: 100%;
+                    font-size: 3rem;
+                }
+
+                .line{
+                    width: 70%;
+                }
+
+            }
+            .listoftables{
+
+            }
+        }
+    }
+}
