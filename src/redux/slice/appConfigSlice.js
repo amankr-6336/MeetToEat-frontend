@@ -1,6 +1,6 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import { axiosClient } from "../../utils/AxiosClient";
-import axios from "axios";
+// import axios from "axios";
 
 export const getTables=createAsyncThunk('table/getalltable',async ()=>{
     try {
